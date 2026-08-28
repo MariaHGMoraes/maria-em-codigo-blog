@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    color: #242424;
+    background-color: #fff7f0;
+    padding: 20px;
+
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.paragrafo-header{
+    color: #242424;
+    align-content: center;
+}
