@@ -11,20 +11,114 @@
 body{
     color: #242424;
     background-color: #fcf7f4;
-    padding: 20px;
     font-family: "Poppins";
+    margin: 0px;
 
 }
 
-/*paragrafo que esta dentro de header, > herança filho
-header > p{
-    display: none;
+nav{
+    margin: 40px;
+    padding: 10px;
+    display: flex;                                  /* organiza logo e menu lado a lado */
+    justify-content: space-between;   
+    align-items: center;            /* alinha logo e menu verticalmente */
+    font-size: 18px;
+    border-bottom: 1px solid #d1d1d1;      
+    }
+
+nav > div{                                          /* div é filho de nav, como se nav estivesse chamando o filho div */
+    display: flex;                                  /*organiza os links em linha*/
+    gap: 20px;                                    /*espaços entre os links*/
 }
-header:hover > p{
-    display: block;
+
+nav > img{
+    width: 100px;
+    height: auto;
+}
+nav a {
+    text-decoration: none;
+    color: #242424;
+    transition: color 0.3s; /* transição suave de cor*/
+}
+nav a:hover{
+    text-decoration: underline;
+    color: blue;
+    
 }
 
-*/
+#apresentacao{
+    background-color: #687a4828;
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 50px;
+    border-radius: 8px;
+}
 
+#imagem-principal{
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+}
+.titulo-principal {
+    font-family: "DM Serif Display";
+    font-size: 32px;
+    color: #687a48;
+}
 
+#apresentacao button{
+    margin-top: 10px;
+    background-color:  #687a489c;
+    color: #fcf7f4;
+    padding: 7px;
+    font-size: 16px;
+    border: 2px;
+    border-radius: 5px;
+    
+}
 
+#apresentacao button:hover{
+    opacity: 0.7;
+    box-shadow: 0 5px 20px #687a48;
+    
+    
+}
+
+#apresentacao h2 {
+    margin-bottom: 5px;
+}
+
+#apresentacao p {
+    margin-bottom: 5px;
+}
+
+#artigos{
+    /*background-color: #687a4828;*/
+    padding: 30px;
+    margin: 50px;
+    border-radius: 8px;
+}
+
+#artigos div{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.titulo-secundario {
+    font-family: "DM Serif Display";
+    font-size: 22px;
+    color: #687a48;
+}
+
+#artigos article{
+    flex: 1;
+    text-align: justify;
+    background-color: #717c5e2c;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
