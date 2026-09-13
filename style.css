@@ -47,7 +47,6 @@ nav a:hover{
 }
 
 #apresentacao{
-    background-color: #687a4828;
     padding: 30px;
     font-size: 20px;
     display: flex;
@@ -64,7 +63,7 @@ nav a:hover{
 }
 .titulo-principal {
     font-family: "DM Serif Display";
-    font-size: 32px;
+    font-size: 42px;
     color: #687a48;
 }
 
@@ -95,21 +94,40 @@ nav a:hover{
 }
 
 #artigos{
-    /*background-color: #687a4828;*/
+    background-color: #E5E8DE;
     padding: 30px;
-    margin: 50px;
-    border-radius: 8px;
+    
 }
+
 
 #artigos div{
     display: flex;
-    gap: 30px;
+    gap: 50px;
+    text-align: center;
     
+}
+
+#artigos article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 210px;
+}   
+
+#artigos article a{
+    margin-top: auto;
+    color: #687a48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#artigos article h3{
+    margin-bottom: 10px;
 }
 
 .titulo-secundario {
     font-family: "DM Serif Display";
-    font-size: 22px;
+    font-size: 32px;
     color: #687a48;
 }
 
@@ -121,4 +139,53 @@ nav a:hover{
     margin-top: 20px;
     border-radius: 5px;
     font-size: 16px;
+    
 }
+
+#aprendizado{
+    text-align: center;
+    margin: 100px;
+}
+
+#bloco01{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+
+#aprendizado > h2{
+    font-family: "DM Serif Display";
+    color: #687a48;
+    font-size: 32px;
+    margin-bottom: 80px;
+} 
+
+#aprendizado img{
+    width: 64px;
+    height: auto;
+}
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+
+.habilidades > p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    
+    
+}
+
+.icone-habilidade:hover{
+    transform: translateY(-20px);
+    transition-duration: 0.5s;
+    
+}
+
