@@ -60,6 +60,7 @@ nav a:hover{
     width: 120px;
     height: auto;
     border-radius: 50%;
+    
 }
 .titulo-principal {
     font-family: "DM Serif Display";
@@ -95,7 +96,7 @@ nav a:hover{
 
 #artigos{
     background-color: #E5E8DE;
-    padding: 30px;
+    padding: 50px;
     
 }
 
@@ -158,7 +159,7 @@ nav a:hover{
     font-family: "DM Serif Display";
     color: #687a48;
     font-size: 32px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 } 
 
 #aprendizado img{
@@ -183,9 +184,47 @@ nav a:hover{
     
 }
 
+.icone-habilidade{
+    transition-duration: 0.5s;
+}
 .icone-habilidade:hover{
     transform: translateY(-20px);
-    transition-duration: 0.5s;
     
+    
+}
+
+#redes{
+    margin: 50px;
+    
+}
+#redes > h3{
+    font-family: "DM Serif Display";
+    font-size: 32px;
+    color: #687a48;
+    margin-bottom: 50px;
+
+}
+
+#bloco-redes{
+    display: flex;
+    gap: 50px;
+
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color:#313131;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    color: #fcf7f4;
+    font-family: "IBM Plex Mono";
+    padding: 25px 50px;
+    align-items: center;
 }
 
